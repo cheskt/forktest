@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+</head>
+<body class="ml-5 mt-2">
+    <h1 class="text-3xl font-bold underline text-carrot w-1/5 text-center bg-mycolor my-3 p-2 rounded-full">Hello</h1>
+    <header class = "red">Header</header>
+    <nav data-id="nav1">Nav</nav>
+    <section class="bg-black text-white p-5">Section</section>
+    <aside>Aside</aside>
+
+    <form class="border-2 border-green-500 p-3"id="frm" name="frm" method="POST">
+        <div class="lg:flex gap-2">
+            <input class="border-2 rounded-md px-2 mx-2 py-0.5 focus:outline-1 focus:outline-blue-300"type="email" id="email" placeholder="Email...">
+            <input type="password" id="pw" placeholder="Password...">
+        </div>
+        <div class="flex justify-around mt-3">
+            <button class="bg-gray-500 text-white px-2"type="reset">Reset</button>
+            <button class="bg-danger text-black px-2 rounded-lg shadow-lg hover:bg-black hover:text-yellow-300">delete</button>
+            <button class="bg-sky-300 text-white px-2 rounded-lg shadow-md hover:bg-sky-700"type="submit">Submit</button>
+        </div>
+    </form>
+    
+    <div>Yesterday is history.</div>
+    <div>
+        Tomorrow is mystery.
+        <span id="upper-span">Today is a gift.
+            <span class="inner-span">Inner Span</span>
+        </span>
+    </div>
+    <div>That's why it's called the present.</div>
+    <ul class="list-decimal list-inside">
+        <li class="first:text-yellow-500 last:text-blue-500 flex justify-between mr-24">
+            <img src="images/author-01.jpg" alt="blog-author-1" class="rounded-full"/>
+            <div class="bg-red-500 h-24 align-middle">remark</div>
+            
+
+        </li>
+        <li class="first:bg-black">222</li>
+        <li class="last:mb-5">333</li>
+    </ul>
+    
+    <footer>Footer</footer>
+</body>
+</html>
